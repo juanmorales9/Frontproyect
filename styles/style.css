@@ -371,7 +371,7 @@ body {
 	font-size: 15px;
 }
 
-.img__section3{
+.img-section3{
     position: absolute;
     width: 70px;
     height: 70px;
@@ -380,7 +380,7 @@ body {
     left: 41.32%;
 }
 
-.containerbotton__section3{
+.containerbotton-section3{
     display: flex;
     justify-content: center;
     width: 100%;
@@ -510,6 +510,14 @@ body {
 	
     
 }
+.links__footer li:hover{
+    background-color: rgba(34, 46, 224, 0.5);
+	border-radius: 4%;
+	transition: 0.5s ease;
+	transform: scale(1.5);
+	
+}
+
 
 .links__footer li{
     padding: 8px 0 8px 0;
